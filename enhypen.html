@@ -8,9 +8,11 @@
 </head>
 <body>
     <header class="transition-all bg-zinc-900">
-        <nav class="container mx-auto max-w-[80%] flex justify-between ">
-            <a href="#"><img class="w-[150px] h-[110px]" src="./images/logokpop.png" alt=""></a>
-            <ul class="flex items-center gap-10">
+        <nav class="container mx-auto max-w-[80%] flex justify-between max-[500px]:flex-col">
+            <div class="w-full max-[500px]:flex max-[500px]:justify-center">
+                <a href="#"><img class="max-w-[150px] max-h-[110px]" src="./images/logokpop.png" alt=""></a>
+            </div>
+            <ul class="flex items-center gap-10 justify-center max-[500px]:mb-16">
                 <li class="text-white text-[15px] font-bold hover:text-[#7af5a5] hover:scale-125">
                     <a href="./index.html">Home</a>
                 </li>
@@ -25,19 +27,18 @@
                 </li>
             </ul>
         </nav>
-
     </header>
 
     <main class="container mx-auto max-w-[90%] py-10">
         <section>
-            <div class="showcase flex flex-1 w-full items-center">
+            <div class="showcase flex flex-1 w-full items-center max-[1300px]:flex-col">
                 <div class="left">
-                    <img class=" rounded-xl flex justify-center items-center w-[500px] h-[600pxx] mt-20 mr-36" src="./images/enhypen.jpg" alt="">
+                    <img class=" rounded-xl flex justify-center items-center w-[500px] h-[600pxx] mt-20 mr-36 max-[1300px]:mb-16 max-[1300px]:flex max-[1300px]:mx-0" src="./images/enhypen.jpg" alt="">
                 </div>
                 <div class="right">
-                    <h1 class="font-bold text-orange-500 text-4xl mb-6">Enhypen</h1>
-                    <div class="flex">
-                        <ul class="h-28 w-60">
+                    <h1 class="font-bold text-orange-500 text-4xl mb-6 flex max-[1300px]:justify-center">Enhypen</h1>
+                    <div class="flex max-[800px]:text-center max-[800px]:flex-col">
+                        <ul class="h-28 w-72">
                             <li class="my-2">
                                 <b>Members:</b> 
                                 <span class="text-orange-400 font-bold"> Heeseung Jay Jake Sunghoon Sunoo Ni-ki Jungwon</span>
@@ -51,7 +52,7 @@
                                 <span class="text-orange-400 font-bold">Engene</span>
                             </li>
                         </ul>
-                        <ul class="ml-28 h-28 w-72">
+                        <ul class="ml-28 h-28 w-72 max-[800px]:ml-0">
                             <li class="my-2">
                                 <b>Debut:</b> 
                                 <span class="text-orange-400 font-bold">30.11.2020 30th november 2020</span>
@@ -66,12 +67,13 @@
                                 </li>
                         </ul>
                     </div>
-                    <div class="more flex-none flex mt-16">
-                        <p class="mr-4 font-bold">Alike groups:</p>
+                    <div class="more flex-none flex mt-16 max-[800px]:flex-col max-[1300px]:justify-center max-[800px]:mt-10">
+                        <p class="mr-4 font-bold flex justify-center items-center max-[800px]:mb-5">Alike groups:</p>
+                        <div class="flex">
                         <a class="flex justify-center items-center py-1 px-7 max-w-[136px] w-full bg-orange-300 font-bold border-2 border-black rounded-xl" href="./bts.html">Bts</a>
                         <a class="flex justify-center items-center py-1 px-5 mr-[10px] ml-[10px] max-w-[136px] w-full bg-orange-300 font-bold border-2 border-black rounded-xl" href="./blackpink.html">Blackpink</a>
                         <a class="flex justify-center items-center py-1 px-7 max-w-[136px] w-full bg-orange-300 font-bold border-2 border-black rounded-xl" href="./itzy.html">Itzy</a>
-                    </div>
+                        </div></div>
                     </div>
                 </div>
             </div>
